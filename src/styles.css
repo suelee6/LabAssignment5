@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF7F50;
+}
+
+.main-container {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 12fr 1fr;
+}
+
+.row-one,
+.row-two,
+.row-three {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    height: 100%;
+}
+
+.row-two {
+    background-color: #FFC0CB;
+}
+
+.row-three {}
+
+.container-padding {
+    margin: 12px;
+    border: 1px dashed #8B008B;
+}
